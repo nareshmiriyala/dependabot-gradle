@@ -15,6 +15,9 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.apache.groovy:groovy")
+	// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+	implementation("mysql:mysql-connector-java:8.0.25")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
