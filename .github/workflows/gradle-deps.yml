@@ -3,7 +3,7 @@ name: gradle-dependency-submission
 on:
   push:
     branches:
-      - develop
+      - main
 
 jobs:
   build:
